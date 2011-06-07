@@ -1,0 +1,24 @@
+settings = {
+        orientation = {
+                default = "landscapeRight",
+                supported = {
+					"landscapeLeft", "landscapeRight"
+                },
+        },
+        
+        iphone = {
+			plist = {
+				UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+	 
+				UISupportedInterfaceOrientations = {
+					"UIInterfaceOrientationLandscapeLeft",
+					"UIInterfaceOrientationLandscapeRight"
+				},
+				
+				UIApplicationExitsOnSuspend = true,
+				UIStatusBarHidden = true,
+				UIPrerenderedIcon = true
+				
+			}
+    }
+}
